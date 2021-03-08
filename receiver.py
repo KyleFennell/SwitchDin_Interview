@@ -1,7 +1,6 @@
 import paho.mqtt.client as mqtt_client
 import random
 
-
 def connect_mqtt():
     def on_connect(client, userdata, flags, rc):
         if rc == 0:
